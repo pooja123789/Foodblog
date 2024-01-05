@@ -5,6 +5,7 @@ import Navbar from './components/common/Navbar';
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
 import { BrowserRouter as Router , Routes , Route} from 'react-router-dom';
+import RecipeDetails from './components/RecipeDetails';
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipes" element={<Recipes />} />
-        
+        <Route path="/recipes/:recipeId" element={<RecipeDetails />} />
       </Routes>
     </Router>
   );

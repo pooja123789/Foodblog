@@ -22,3 +22,16 @@
   font-size: 80px;
   margin-bottom: 32px;
 }
+.search-box {
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+}
+
+.search-heading {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.detailsPageContent {
+  padding-top: 100px !important
+}
